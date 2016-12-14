@@ -4,7 +4,7 @@ import Link from './Link'
 
 const Links = ({ links, className }) => (
   <div className={ className }>
-    { links.map(link => <Link key={ link.url } { ...link }/>) }
+    { links && links.map(link => <Link key={ link.url } { ...link }/>) }
   </div>
 )
 

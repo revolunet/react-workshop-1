@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import Links from '../components/Links'
+import LinksBrowser from '../components/LinksBrowser'
 import links from '../static/links.json'
 
 export default () => (
@@ -10,6 +10,6 @@ export default () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>React Workshop #1</title>
     </Head>
-    <Links links={ links }/>
+    <LinksBrowser links={ links } />
   </div>
 )
