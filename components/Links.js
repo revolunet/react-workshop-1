@@ -1,10 +1,19 @@
 import React from 'react'
 
+const Link = ({ url, text, tags }) => (
+  <div>
+    <b>{ url }</b>
+    <br/>
+    { text }
+    <hr/>
+    { tags.join(', ') }
+  </div>
+)
+
 const Links = ({ links }) => (
-  <ul>
-    <li><b>All Links</b></li>
-    { links.map(link => <li key={ link.url }>{ link.url }</li>) }
-  </ul>
+  <div>
+    { links.map(link => <Link key={ link.url } { ...link }/>) }
+  </div>
 )
 
 export default Links
