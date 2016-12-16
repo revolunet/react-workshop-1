@@ -15,6 +15,7 @@
   "dependencies": {
     "next": "^1.2.3",
     "normalize-strings": "^1.1.0",
+    "react-addons-css-transition-group": "^15.4.1",
     "styled-components": "^1.1.3"
   }
 }
