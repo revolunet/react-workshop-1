@@ -1,4 +1,5 @@
 import React from 'react'
+import md5 from 'md5'
 import styled from 'styled-components'
 
 const Url = styled.div`
@@ -43,11 +44,26 @@ const Tag = styled.span`
   }
 `
 
+const getScreenshotUrl = url => `/static/screenshots/${md5(url)}.png`;
+
+const Screenshot = styled.div`
+  width: 160px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: ${props => `url(${getScreenshotUrl(props.url)})` };
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #aaa;
+  border: 1px solid #ccc;
+  margin-bottom:10px;
+`
+
 // simpler url
 const simplify = url => url.replace(/https?\:\/\//,'').replace(/\/$/,'').replace(/^www\./,'')
 
 const Link = ({ className, url, text, tags, onTagClick }) => (
   <div className={ className }>
+    <Screenshot url={ url }/>
     <Url><a title={ url } href={ url }>{ simplify(url) }</a></Url>
     <Text>{ text }</Text>
     { tags.map(tag => <Tag onClick={ () => onTagClick(tag) } key={ tag }>{ tag }</Tag>) }

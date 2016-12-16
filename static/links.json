@@ -1,16 +1,4 @@
 [{
-    "url": "http://zenhub.io",
-    "text": "project management solution from existing GitHub Issues",
-    "tags": ["project", "github", "dev"]
-},{
-    "url": "http://waffle.io",
-    "text": "project management solution from existing GitHub Issues",
-    "tags": ["project", "github", "dev"]
-},{
-    "url": "https://huboard.com",
-    "text": "project management solution from existing GitHub Issues",
-    "tags": ["project", "github", "dev"]
-},{
     "url": "http://burndown.io",
     "text": "burdown charts fot github projects",
     "tags": ["project", "github", "dev"]
@@ -31,13 +19,9 @@
     "text": "share calendars, todos, files... ",
     "tags": ["project", "customers"]
 },{
-    "url": "http://mailchimp.com",
+    "url": "http://mailjet.com",
     "text": "easy mailing-list, reports...",
     "tags": ["email"]
-},{
-    "url": "http://mandrill.com",
-    "text": "transactionnal email API linked to mailchimp",
-    "tags": ["email", "api"]
 },{
     "url": "http://mailgun.com",
     "text": "transactionnal email API linked to mailchimp",
@@ -91,7 +75,7 @@
 },{
     "url": "https://github.com/WhiteHouse/api-standards",
     "text": "Guide: White House Web API standards",
-    "tags": ["api", "dev"]
+    "tags": ["api", "dev", "rest"]
 },{
     "url": "https://www.runscope.com/",
     "text": "Monitor, log, measure and share your API usage.",
@@ -129,7 +113,7 @@
     "text": "One Click to Wrap App Screenshots in Device Mockup!",
     "tags": ["design", "prototyping"]
 },{
-    "url": "url",
+    "url": "http://www.matthieu-tranvan.fr/e-commerce/7-principes-fondamentaux-design-web-site-ergonomie.html",
     "text": "Les 7 Principes Fondamentaux de Design d’un Site",
     "lang": "fr",
     "tags": ["design", "ecommerce"]
