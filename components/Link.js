@@ -61,8 +61,66 @@ const Screenshot = styled.div`
 // simpler url
 const simplify = url => url.replace(/https?\:\/\//,'').replace(/\/$/,'').replace(/^www\./,'')
 
+const Star = styled.div`
+  cursor:pointer;
+  display: inline-block;
+  right: 5px;
+  position: absolute;
+  margin-left: auto;
+  top: 5px;
+
+  &::after {
+    content: '⭐';
+    font-size: 25px;
+    filter: ${props => props.starred ? '' : 'grayscale(100%)'}
+  }
+`
+
+// higher-order-component
+// add props.onStar and props.starred
+// use @id as a key to store bookmark status
+//
+// Cmp = makeStarrable(Whatever)
+// <Cmp id="xxx" />
+//
+//
+const makeStarrable = Component => class Starrable extends React.Component {
+  state = {
+    starred: false
+  }
+  componentWillMount() {
+    this.setState({
+      starred: this.isStarredInStorage()
+    })
+  }
+  isStarredInStorage = () => {
+    // read from local storage
+    return (typeof window !== 'undefined') && !!window.localStorage.getItem(this.props.id) || false
+  }
+  onStar = () => {
+    this.setState(state => ({
+      starred: !state.starred
+    }), () => {
+      // save data in local storage
+      if (typeof window !== 'undefined') {
+        if (!this.state.starred) {
+          window.localStorage.removeItem(this.props.id);
+        } else {
+          window.localStorage.setItem(this.props.id, ''+true);
+        }
+      }
+    })
+  }
+  render() {
+    return <Component onClick={ this.onStar } starred={ this.state.starred } { ...this.props }/>
+  }
+}
+
+const StarContainer = makeStarrable(Star)
+
 const Link = ({ className, url, text, tags, onTagClick }) => (
   <div className={ className }>
+    <StarContainer id={ url }/>
     <Screenshot url={ url }/>
     <Url><a title={ url } href={ url }>{ simplify(url) }</a></Url>
     <Text>{ text }</Text>
@@ -78,6 +136,8 @@ const StyledLink = styled(Link)`
   margin: 10px;
   padding: 20px;
   vertical-align: top;
+  position: relative;
+
   &:nth-child(even) {
     background: #fffcf5;
   }
