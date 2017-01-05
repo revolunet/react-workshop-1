@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 
-import LinksBrowser from './LinksBrowser'
-import links from './links.json'
+import LinksBrowser from './LinksBrowserContainer'
 
 class App extends Component {
   render () {
     return (
       <div className='App'>
-        <LinksBrowser links={links} />
+        <LinksBrowser />
       </div>
     )
   }
