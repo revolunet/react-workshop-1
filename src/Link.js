@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Screenshot from './Screenshot'
-import Star from './Star'
+import Star from './StarContainer'
 
 // Link URL
 const Url = styled.a`
@@ -52,7 +52,7 @@ const simplify = url => url.replace(/https?:\/\//, '').replace(/\/$/, '').replac
 // Link block
 const Link = ({ className, url, text, tags, onTagClick }) => (
   <div className={className}>
-    <Star />
+    <Star id={url} />
     <Screenshot url={url} />
     <Url title={url} href={url}>{ simplify(url) }</Url>
     <Text>{ text }</Text>
