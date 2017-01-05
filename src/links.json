@@ -1,0 +1,488 @@
+[{
+    "url": "http://burndown.io",
+    "text": "burdown charts fot github projects",
+    "tags": ["project", "github", "dev"]
+},{
+    "url": "https://gist.github.com/jbenet/ee6c9ac48068889b0912",
+    "text": "Simple GIT branching model",
+    "tags": ["dev", "git", "github"]
+},{
+    "url": "http://google.com/apps",
+    "text": "team email, basic chat, calendars, docs, hangouts...",
+    "tags": ["team", "google"]
+},{
+    "url": "http://slack.com",
+    "text": "platform for team communication: everything in one place, instantly searchable, available wherever you go.",
+    "tags": ["team", "communication"]
+},{
+    "url": "https://basecamp.com",
+    "text": "share calendars, todos, files... ",
+    "tags": ["project", "customers"]
+},{
+    "url": "http://mailjet.com",
+    "text": "easy mailing-list, reports...",
+    "tags": ["email"]
+},{
+    "url": "http://mailgun.com",
+    "text": "transactionnal email API linked to mailchimp",
+    "tags": ["email", "api"]
+},{
+    "url": "https://www.sendwithus.com/resources/templates",
+    "text": "Free email templates",
+    "tags": ["email"]
+},{
+    "url": "http://blog.mailgun.com/transactional-html-email-templates",
+    "text": "Free email templates",
+    "tags": ["email"]
+},{
+    "url": "https://litmus.com",
+    "text": "Email previews, analytics and spam filter testing",
+    "tags": ["email"]
+},{
+    "url": "http://multirbl.valli.org/lookup",
+    "text": "SPAM blacklists checker",
+    "tags": ["email"]
+},{
+    "url": "https://www.blossom.co",
+    "text": "Advanced Agile Project Management for github",
+    "tags": ["dev", "project", "team"]
+},{
+    "url": "http://www.clicboutic.com/blog/",
+    "text": "Bon blog sur le sujet entreprenariat/ecommerce",
+    "lang": "fr",
+    "tags": ["ecommerce"]
+},{
+    "url": "http://leanagilecamp.fr/guide.html",
+    "text": "Petit guide de management lean à l’usage des équipes agiles",
+    "lang": "fr",
+    "tags": ["agile"]
+},{
+    "url": "https://www.toggl.com",
+    "text": "Time tracking",
+    "tags": ["team", "project"]
+},{
+    "url": "https://ding.io",
+    "text": "Time tracking",
+    "tags": ["team", "project"]
+},{
+    "url": "http://apiary.io",
+    "text": "Markdown based API doc and stubs for teams",
+    "tags": ["api", "dev", "prototyping"]
+},{
+    "url": "http://apigee.com/about/resources/ebooks/web-api-design",
+    "text": "Guide: Crafting Interfaces that Developers Love",
+    "tags": ["api", "dev"]
+},{
+    "url": "https://github.com/WhiteHouse/api-standards",
+    "text": "Guide: White House Web API standards",
+    "tags": ["api", "dev", "rest"]
+},{
+    "url": "https://www.runscope.com/",
+    "text": "Monitor, log, measure and share your API usage.",
+    "tags": ["api", "dev"]
+},{
+    "url": "https://moqups.com/",
+    "text": "Easy collaborative online mockup tool with",
+    "tags": ["prototyping", "ui"]
+},{
+    "url": "https://fluidui.com/",
+    "text": "Advanced mobile prototyping with device previews and sharing",
+    "tags": ["prototyping", "ui", "mobile"]
+},{
+    "url": "https://proto.io",
+    "text": "Create fully-interactive high-fidelity prototypes ",
+    "tags": ["prototyping", "ui", "mobile"]
+},{
+    "url": "http://www.invisionapp.com/",
+    "text": "Collaborative design feedback tool",
+    "tags": ["prototyping", "ui", "design"]
+},{
+    "url": "http://sneakpeekit.com",
+    "text": "Free paper sketchs sheets for browsers, mobile...",
+    "tags": ["design", "prototyping"]
+},{
+    "url": "http://fontastic.me/",
+    "text": "Free font icon generator",
+    "tags": ["web", "integration"]
+},{
+    "url": "https://placeit.net",
+    "text": "Fancy Mockups & Demo Videos from screenshots",
+    "tags": ["design", "prototyping"]
+},{
+    "url": "http://mockuphone.com",
+    "text": "One Click to Wrap App Screenshots in Device Mockup!",
+    "tags": ["design", "prototyping"]
+},{
+    "url": "http://www.matthieu-tranvan.fr/e-commerce/7-principes-fondamentaux-design-web-site-ergonomie.html",
+    "text": "Les 7 Principes Fondamentaux de Design d’un Site",
+    "lang": "fr",
+    "tags": ["design", "ecommerce"]
+},{
+    "url": "https://github.com/sindresorhus/pageres",
+    "text": "Responsive website screenshots",
+    "tags": ["dev", "web", "nodejs", "mobile"]
+},{
+    "url": "https://www.draw.io/",
+    "text": "Online diagram tool with google apps/dropbox integration",
+    "tags": ["charts", "project"]
+},{
+    "url": "http://dropbox.com",
+    "text": "ultimate shared folders for team",
+    "tags": ["team", "project"]
+},{
+    "url": "http://httpbin.org/",
+    "text": "Free HTTP Request & Response API",
+    "tags": ["dev"]
+},{
+    "url": "http://requestb.in/",
+    "text": "HTTP request inspector",
+    "tags": ["dev"]
+},{
+    "url": "http://www.getpostman.com/",
+    "text": "Chrome extension for API debugging",
+    "tags": ["dev"]
+},{
+    "url": "http://instantname.me/",
+    "text": "Domain name tester",
+    "tags": ["startup"]
+},{
+    "url": "http://www.browserstack.com/",
+    "text": "Cloud-Based Browser Testing (from IE6 to mobile emulators)",
+    "tags": ["dev", "integration"]
+},{
+    "url": "https://saucelabs.com/",
+    "text": "Automated testing in the cloud for CI (browsers + mobile)",
+    "tags": ["dev"]
+},{
+    "url": "https://www.modern.ie/fr-fr",
+    "text": "Free IE6->11 virtual machines for Parallels, VMWare, Virtualbox...",
+    "tags": ["integration"]
+},{
+    "url": "http://schematic-ipsum.herokuapp.com/",
+    "text": "API to generate JSON from schemas",
+    "tags": ["dev", "json"]
+},{
+    "url": "http://startuptools.pbworks.com/w/page/17974963/FrontPage",
+    "text": "Huge maintained list of startup tools",
+    "tags": ["startup"]
+},{
+    "url": "https://redpen.io/",
+    "text": "Cool feedback tool for visuals teams/freelance",
+    "tags": ["design", "team", "project", "ui"]
+},{
+    "url": "http://screensiz.es/",
+    "text": "List of all devices screen size, form factor, pixel density...",
+    "tags": ["ui", "mobile", "responsive"]
+},{
+    "url": "https://github.com/usablica/intro.js",
+    "text": "step-by-step users guide for your website and project",
+    "tags": ["dev", "web", "startup"]
+},{
+    "url": "http://linkedin.github.io/hopscotch/",
+    "text": "A framework to make it easy for developers to add product tours to their pages.",
+    "tags": ["dev", "web", "startup"]
+},{
+    "url": "http://heelhook.github.io/chardin.js/",
+    "text": "Simple overlay instructions for your apps.",
+    "tags": ["dev", "web", "startup"]
+},{
+    "url": "https://www.unitag.io/qrcode",
+    "text": "Custom QR code generator",
+    "tags": ["dev"]
+},{
+    "url": "http://onmobile.iwanttouse.com/",
+    "text": "Can i use X on mobile",
+    "tags": ["dev", "web", "mobile"]
+},{
+    "url": "http://www.1x1px.me/",
+    "text": "Get a 1px x 1px PNG for any color",
+    "tags": ["dev","web", "integration"]
+},{
+    "url": "http://www.generatedata.com/",
+    "text": "Generate data in CSV,JSON,XML,SQL,HTML...",
+    "tags": ["dev", "prototyping"]
+},{
+    "url": "https://stackedit.io/",
+    "text": "Advanced online markdown editor",
+    "tags": ["dev", "markdown"]
+},{
+    "url": "http://dillinger.io/",
+    "text": "Free & Fast online markdown editor",
+    "tags": ["dev", "markdown"]
+},{
+    "url": "http://tlk.io/",
+    "text": "Instant free web chat + embed",
+    "tags": ["team", "communication"]
+},{
+    "url": "http://instantvoice.com",
+    "text": "User feedback, helpdesk and analytics",
+    "tags": ["startup", "web"]
+},{
+    "url": "http://google.com/analytics",
+    "text": "Ultimate web analytics tool",
+    "tags": ["startup", "web"]
+},{
+    "url": "https://getsatisfaction.com",
+    "text": "customer community software",
+    "tags": ["startup", "web"]
+},{
+    "url": "https://github.com/ericelliott/essential-javascript-links",
+    "text": "Essential JavaScript Links",
+    "tags": ["dev", "javascript"]
+},{
+    "url": "http://requirebin.com",
+    "text": "JSFiddle like for browserify",
+    "tags": ["dev", "javascript", "nodejs"]
+},{
+    "url": "https://gist.github.com/revolunet/3215364",
+    "text": "Compilation of mobile apps patterns",
+    "tags": ["design", "mobile", "patterns"]
+},{
+    "url": "https://mathiasbynens.be/notes/touch-icons",
+    "text": "Everything you always wanted to know about touch icons",
+    "tags": ["dev", "mobile"]
+},{
+    "url": "https://github.com/phonegap/phonegap/wiki",
+    "text": "Phonegap app icons and splashscreens references",
+    "tags": ["dev", "mobile", "reference"]
+},{
+    "url": "http://iosdesign.ivomynttinen.com/",
+    "text": "iOS design guidelines : screen sizes, icons, splashs, typos, layout...",
+    "tags": ["dev", "mobile", "ios", "reference"]
+},{
+    "url": "http://developer.android.com/distribute/tools/promote/device-art.html",
+    "text": "Official Android device HD art generator.",
+    "tags": ["design", "mobile"]
+},{
+    "url": "http://makeappicon.com",
+    "text": "Create icons for all devices from a single drag-n-drop",
+    "tags": ["design", "mobile"]
+},{
+    "url": "https://www.manymo.com/",
+    "text": "Online android emulators",
+    "tags": ["dev", "mobile", "android"]
+},{
+    "url": "http://www.iwanttouse.com/",
+    "text": "Estimate market share for given browser features",
+    "tags": ["dev", "mobile", "html5"]
+},{
+    "url": "http://app-tune.com/temps-approbation-app-store/",
+    "text": "Estimate iOS App Store validation delays",
+    "tags": ["dev", "mobile", "ios"]
+},{
+    "url": "http://mockuphone.com/",
+    "text": "One Click to Wrap App Screenshots in Device Mockup",
+    "tags": ["design", "mobile"]
+},{
+    "url": "http://www.mobiletuxedo.com/touch-gesture-icons/",
+    "text": "Free touch gestures icons",
+    "tags": ["design", "mobile"]
+},{
+    "url": "https://betafamily.com/",
+    "text": "Get your app tested today by your testers or our great testing community",
+    "tags": ["dev", "ux", "mobile"]
+},{
+    "url": "http://www.diawi.com/",
+    "text": "Painless iOS ad-hoc OTA distribution",
+    "tags": ["dev", "mobile", "ios"]
+},{
+    "url": "http://www.appsendr.com/",
+    "text": "Open-source OSX app and web server for iOS ad-hoc OTA distribution",
+    "tags": ["dev", "mobile", "ios"]
+},{
+    "url": "http://caniuse.com/",
+    "text": "Up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.",
+    "tags": ["tag"]
+},{
+    "url": "http://www.unheap.com/",
+    "text": "jQuery plugins curated collection",
+    "tags": ["dev", "web", "javascript"]
+},{
+    "url": "http://jsoneditoronline.org/",
+    "text": "Simple online JSON editor",
+    "tags": ["dev", "web", "javascript"]
+},{
+    "url": "http://www.javascripting.com/",
+    "text": "The definitive source of the best JavaScript libraries, frameworks, and plugins.",
+    "tags": ["dev", "web", "javascript"]
+},{
+    "url": "http://microjs.com",
+    "text": "Microjs.com helps you discover the most compact-but-powerful microframeworks, and makes it easy for you to pick one that’ll work for you.",
+    "tags": ["dev", "web", "javascript"]
+},{
+    "url": "https://github.com/codylindley/frontend-tools",
+    "text": "Frontend tools collection",
+    "tags": ["dev", "web"]
+},{
+    "url": "https://github.com/dypsilon/frontend-dev-bookmarks",
+    "text": "A huge list of frontend development resources collected over time. Sorted from general knowledge at the top to concrete problems at the bottom.",
+    "tags": ["dev", "web"]
+},{
+    "url": "http://devdocs.io",
+    "text": "DevDocs combines multiple API documentations in a fast, organized, and searchable interface.",
+    "tags": ["dev", "web", "reference"]
+},{
+    "url": "https://plus.google.com/+PaulIrish/posts/12BVL5exFJn",
+    "text": "List of Clientside JS error reporting services",
+    "tags": ["dev", "web", "javascript"]
+},{
+    "url": "http://www.emoji-cheat-sheet.com/",
+    "text": "Emoji cheat sheet",
+    "tags": ["reference"]
+},{
+    "url": "http://overapi.com/",
+    "text": "Collecting All Cheat Sheets",
+    "tags": ["reference"]
+},{
+    "url": "http://choosealicense.com/",
+    "text": "Choosing an OSS license doesn’t need to be scary. Choice decision helper.",
+    "tags": ["dev"]
+},{
+    "url": "http://fiddles.io",
+    "text": "All the fiddles",
+    "tags": ["dev", "tools"]
+},{
+    "url": "https://www.tutum.co/",
+    "text": "Build, deploy, and manage your apps across any cloud using Docker",
+    "tags": ["dev", "devops", "docker", "cloud"]
+},{
+    "url": "https://giantswarm.io/",
+    "text": "Start, Deploy, Monitor, Scale microservices using Docker",
+    "tags": ["dev", "devops", "docker", "cloud"]
+},{
+    "url": "http://jsbooks.revolunet.com",
+    "text": "Collection of free javascript related books",
+    "tags": ["dev", "javascript", "reference"]
+},{
+    "url": "http://pythonbooks.revolunet.com",
+    "text": "Collection of free Python related books",
+    "tags": ["dev", "python", "reference"]
+},{
+    "url": "http://doodle.com",
+    "text": "Trouvez une date pour une réunion rapidement",
+    "tags": ["team", "events"]
+},{
+    "url": "https://apiembed.com",
+    "text": "Embed your API for demo, documentation... show sample code in various programming languages.",
+    "tags": ["dev", "tool", "doc", "api"]
+},{
+    "url": "https://github.com/tiimgreen/github-cheat-sheet",
+    "text": "Git+Github cheat sheet",
+    "tags": ["dev", "git"]
+},{
+    "url": "http://vrest.io",
+    "text": "Automated Testing of RESTful APIs and API Clients",
+    "tags": ["dev", "api"]
+},{
+    "url": "http://www.iadvize.com/fr/",
+    "text": "Easy click-to-chat click-to-video visitor tracking for your website",
+    "tags": ["ecommerce", "chat"]
+},{
+    "url": "https://zapier.com",
+    "text": "Automate your workflow with simple, event-based automation to avoid repetitive tasks with +300 online services",
+    "tags": ["tools", "productivity", "api"]
+},{
+    "url": "http://discourse.org",
+    "text": "Full features open-source and hosted forum platform, for desktop and mobile",
+    "tags": ["tools", "forum"]
+},{
+    "url": "https://git.framasoft.org",
+    "text": "Free github-like SAAS based on the open-source GitLab",
+    "tags": ["dev", "git"]
+},{
+    "url": "https://slliks.com/",
+    "text": "Place de marché prestas et projets",
+    "tags": ["freelance"]
+},{
+    "url": "http://www.freelancerepublik.com/",
+    "text": "Place de marché freelances et projets",
+    "tags": ["freelance"]
+},{
+    "url": "http://www.hopwork.fr/",
+    "text": "Annuaire de freelances",
+    "tags": ["freelance"]
+}, {
+    "url": "http://allthefreestock.com/",
+    "text": "curated list of free stock images, graphics and videos. Find all the best free stock images and videos in one place. ",
+    "tags": ["design", "photo"]
+}, {
+    "url": "https://webtask.io",
+    "text": "Run NodeJS code with an HTTP call. No provisioning. No deployment.",
+    "tags": ["dev", "saas", "nobackend", "nodejs", "javascript"]
+}, {
+    "url": "https://www.intercom.io/",
+    "text": "Customer communication made simple : beautiful slick live chat",
+    "tags": ["ecommerce", "chat"]
+},{
+    "url": "http://www.document-juridique.com/",
+    "text": "des dizaines d'exemples de lettres, de contrats et d'actes légaux et administratifs pour les professionnels et les particuliers",
+    "tags": ["legal", "startup"]
+},{
+    "url": "http://foundrs.com/",
+    "text": "Startup Equity Calculator",
+    "tags": ["startup"]
+},{
+    "url": "http://apis.io/",
+    "text": "API directory with apis.json",
+    "tags": ["api"]
+},{
+    "url": "https://builder.stamplia.com/",
+    "text": "Online email template editor",
+    "tags": ["email"]
+},{
+    "url": "http://loader.io/",
+    "text":"stress test your web-apps & apis with thousands of concurrent connections + dashboards",
+    "tags": ["scalability", "performance"]
+},{
+    "url": "https://www.staticgen.com/",
+    "text": "Top Open-Source Static Site Generators",
+    "tags": ["web", "static"]
+},{
+    "url": "http://typeform.com",
+    "text": "Create simple and beautiful forms quickly",
+    "tags": ["web"]
+},{
+    "url": "https://www.intercom.io",
+    "text": "beautiful chat tp interact with your website visitors",
+    "tags": ["ecommerce", "chat", "communication"]
+},{
+    "url": "http://pixelmap.amcharts.com/",
+    "text": "Online tool to edit and generate beautiful vector maps",
+    "tags": ["map"]
+},{
+    "url": "http://www.zfbot.com/",
+    "text": "The ultimate domain name search tool for domainers",
+    "tags": ["SEO", "domains"]
+},{
+    "url": "http://www.contentful.com",
+    "text": "Contentful is a content management developer platform with an API at its core.",
+    "tags": ["CMS", "API", "content", "static"]
+},{
+    "url": "http://www.siteleaf.com",
+    "text": "Siteleaf is a content management for the whole team - edit static sites",
+    "tags": ["CMS", "API", "content", "static"]
+},{
+    "url": "https://attach.io/startup-pitch-decks/",
+    "text": "A collection of real fundraising decks from real startups. In total, these decks have raised over $400 million. ",
+    "tags": ["startup", "pitch"]
+},{
+    "url": "http://www.interfacesketch.com/",
+    "text": "Free sketch templates for web, mobile and tablet platforms",
+    "tags": ["ui", "design"]
+},{
+    "url": "http://rankscanner.com",
+    "text": "Google Keywords position tracking for your domain (free)",
+    "tags": ["seo", "google"]
+},{
+    "url": "http://www.aha.io/",
+    "text": "roadmapping software for PMs who want their mojo back",
+    "tags": ["startup"]
+},{
+    "url": "https://elegantt.com/",
+    "text": "Awesome Gantt charts for Trello",
+    "tags": ["startup"]
+},{
+    "url": "http://node.green/",
+    "text": "Node.js ES2015 Support compat table",
+    "tags": ["dev", "javascript", "node"]
+}]
