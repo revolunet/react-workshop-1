@@ -47,11 +47,11 @@ const Tag = styled.span`
 const simplify = url => url.replace(/https?:\/\//, '').replace(/\/$/, '').replace(/^www\./, '')
 
 // Link block
-const Link = ({ className, url, text, tags }) => (
+const Link = ({ className, url, text, tags, onTagClick }) => (
   <div className={className}>
     <Url title={url} href={url}>{ simplify(url) }</Url>
     <Text>{ text }</Text>
-    { tags.map(tag => <Tag key={tag}>{ tag }</Tag>) }
+    { tags.map(tag => <Tag onClick={() => onTagClick(tag)} key={tag}>{ tag }</Tag>) }
   </div>
 )
 

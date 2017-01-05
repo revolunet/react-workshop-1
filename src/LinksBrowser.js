@@ -52,6 +52,11 @@ class LinksBrowser extends React.Component {
   state = {
     query: null
   }
+  onTagClick = tag => {
+    this.setState({
+      query: tag
+    })
+  }
   onInputChange = e => {
     this.setState({
       query: e.target.value
@@ -65,9 +70,9 @@ class LinksBrowser extends React.Component {
     const results = query ? filterLinks(links, query) : links
     return (
       <Centered>
-        <Input onChange={ this.onInputChange } placeholder="..."/>
-        <Links links={ results } />
-        { (!results || !results.length) && <NoResults>Oops, no result...</NoResults>}
+        <Input value={ this.state.query || '' } onChange={ this.onInputChange } placeholder="..."/>
+        <Links links={ results } onTagClick={ this.onTagClick }/>
+        { (!results || !results.length) && <NoResults>Oops, no result...</NoResults> }
       </Centered>
     )
   }

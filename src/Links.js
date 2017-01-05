@@ -2,9 +2,9 @@ import React from 'react'
 
 import Link from './Link'
 
-const Links = ({ links }) => (
+const Links = ({ links, onTagClick }) => (
   <div>
-    { links.map(link => <Link key={link.url} {...link} />) }
+    { links.map(link => <Link onTagClick={onTagClick} key={link.url} {...link} />) }
   </div>
 )
 
