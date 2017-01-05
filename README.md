@@ -2,7 +2,7 @@
 
 Get up and running quickly with the basic React stack
 
-[gif]
+Slides : http://blog.revolunet.com/react-workshop-1
 
 ## Pre-requisities
 
@@ -39,7 +39,7 @@ More about that stack : http://putaindecode.io/fr/articles/frontend/2016-2-ans-a
 
 ## Program
 
-See commit log
+See commit log and [steps](./steps.md)
 
 ## Usage
 

@@ -1,0 +1,21 @@
+import React from "react"
+
+// ES6 class style
+class Welcome extends React.Component {
+  render() {
+    return (
+      <div>
+        <strong>Welcome</strong>, { this.props.name }
+      </div>
+    )
+  }
+}
+
+// pure-stateless components (aka "presentational", aka "dumb")
+const Welcome = ({ name }) => (
+  <div>
+    <strong>Welcome</strong>, { name }
+  </div>
+)
+
+const Home = <Welcome name="Alex"/>

@@ -1,0 +1,17 @@
+// JSX
+const Cmp = (
+  <Container>
+    <Title>Hello World</Title>
+  </Container>
+)
+
+// Javascript
+const Cmp = React.createElement(
+  Container,
+  null,
+  React.createElement(
+    Title,
+    null,
+    "Hello World"
+  )
+);
