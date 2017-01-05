@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Screenshot from './Screenshot'
+
 // Link URL
 const Url = styled.a`
   font-size: 24px;
@@ -49,6 +51,7 @@ const simplify = url => url.replace(/https?:\/\//, '').replace(/\/$/, '').replac
 // Link block
 const Link = ({ className, url, text, tags, onTagClick }) => (
   <div className={className}>
+    <Screenshot url={url} />
     <Url title={url} href={url}>{ simplify(url) }</Url>
     <Text>{ text }</Text>
     { tags.map(tag => <Tag onClick={() => onTagClick(tag)} key={tag}>{ tag }</Tag>) }
