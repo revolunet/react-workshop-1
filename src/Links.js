@@ -1,15 +1,6 @@
 import React from 'react'
 
-const Link = ({ url, text, tags }) => (
-  <div>
-    <b>{ url }</b>
-    <br />
-    { text }
-    <br />
-    { tags.join(', ') }
-    <hr />
-  </div>
-)
+import Link from './Link'
 
 const Links = ({ links }) => (
   <div>
