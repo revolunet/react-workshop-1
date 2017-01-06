@@ -1,0 +1,8 @@
+
+// require some CSS
+import styles from './styles.css'
+const ex1 = <div className={ styles.title }>title</div>
+
+// require an image
+import logo from './logo.png'
+const img = <img src={ logo } />
